@@ -15,18 +15,15 @@ import successWebp from '../images/success.webp';
 import errorGif from '../images/error.gif';
 import errorWebp from '../images/error.webp';
 
-
 const MAPBOX_TOKEN = process.env.GATSBY_MAPBOX_API_KEY
 
 const ModalForm = styled('div')`
   ${tw`w-full md:w-1/2 overflow-auto`}
   transition: .3s width linear;
 `
-
 const ModalFormWrapper = styled('div')`
   ${tw`p-4 sm:p-8`}
 `
-
 const FormWrapper = styled('div')`
   ${tw`sm:px-4`}
 `
@@ -35,13 +32,11 @@ const ModalMap = styled('div')`
   // pointer-events: none;
   transition: .3s width linear;
 `
-
 const MapOverlay = styled('div')`
   ${tw`absolute w-full h-full pin-t pin-l`}
   background-color: rgba(33, 36, 52, .6);
   z-index: 1;
 `
-
 const Pin = styled('div')`
   ${tw`bg-water-leaf absolute`}
   z-index: 3;
@@ -61,7 +56,6 @@ const Pin = styled('div')`
     border-radius: 50%;
   }
 `
-
 const Pulse = styled('div')`
   background: rgba(0,0,0,0.4);
   border-radius: 50%;
@@ -87,7 +81,6 @@ const Pulse = styled('div')`
     animation-delay: 2s;
   }
 `
-
 const SpaceSuggest = styled(Geosuggest)`
   ${tw`relative font-mono`}
   input {
@@ -131,7 +124,6 @@ const SpaceSuggest = styled(Geosuggest)`
     font-weight: bold;
   }
 `
-
 const SearchIconWrapper = styled('div')`
   ${tw`absolute pin-t pin-l z-10 p-3 flex items-center justify-center text-comet`}
   width: 58px;
@@ -144,22 +136,18 @@ const SearchIconWrapper = styled('div')`
     height: 67px;
   }
 `
-
 const Label = styled('label')`
   ${tw`font-mono uppercase tracked text-white text-xs mb-2 block`}
   a {
     ${tw`ml-2`}
   }
 `
-
 const Formgroup = styled('div')`
   ${tw`mb-8 text-white relative h-full`}
 `
-
 const Radiogroup = styled('div')`
   ${tw`flex flex-wrap flex-row justify-content-between mt-3`}
 `
-
 const CityItem = styled('div')`
   ${tw`pl-3 pb-3 w-1/2 sm:w-1/4`}
   :nth-of-type(2n+1) {
@@ -174,7 +162,6 @@ const CityItem = styled('div')`
     padding-left:0;
   }
 `
-
 const TypeItem = styled('div')`
   ${tw`pl-3 pb-3 w-1/2 sm:w-1/3`}
   :nth-of-type(2n+1) {
@@ -189,13 +176,11 @@ const TypeItem = styled('div')`
     }
   }
 `
-
 const MapContainer = styled('div')`
   ${tw`w-full`}
   overflow: hidden;
   height: 140%;
 `
-
 const Radio = styled('div')`
 ${tw`h-full`}
   label {
@@ -225,32 +210,26 @@ ${tw`h-full`}
     }
   }
 `
-
 const RadioBg = styled('div')`
   ${tw`block rounded bg-black-rock absolute pin-t pin-l w-full h-full`}
   z-index: 0;
   transform: scaleY(1) scaleX(1);
   transition: transform .15s ease-in-out;
 `
-
 const WifiWrapper = styled('div')`
   ${tw`flex flex-col md:flex-row`}
 `
-
 const SpeedContainer = styled('div')`
   ${tw`flex-1`}
   transition: all .2s ease;
 `
-
 const PasswordContainer = styled('div')`
   ${tw`md:pl-6 flex-1`}
   transition: all .2s ease;
 `
-
 const SpaceContainer = styled('div')`
   ${tw`w-full absolute pin-t pin-l z-10 p-10`}
 `
-
 const FormSubmitted = styled('div')`
   ${tw`absolute flex sm:items-center justify-center pin-t pin-l w-full h-full z-20 py-10 px-5 text-white bg-mirage`}
   .icon {
@@ -274,7 +253,6 @@ const FormSubmitted = styled('div')`
     }
   }
 `
-
 const FormSubmittedWrapper = styled('div')`
   ${tw`font-mono max-w-lg flex flex-col content-center text-center`}
   a {
@@ -291,20 +269,16 @@ const FormSubmittedWrapper = styled('div')`
     }
   }
 `
-
 const FormSubmittedText = styled('div')`
   ${tw`ml-5 relative z-30`}
 `
-
 const IconWrapper = styled('div')`
   ${tw`mx-5 my-auto`}
 `
-
 const ImgBlend = styled('div')`
     ${tw`absolute pin-t pin-l w-full h-full bg-mirage z-10 opacity-50`}
     mix-blend-mode: overlay;
 `
-
 const ImgOverlay = styled('div')`
     ${tw`absolute pin-t pin-l w-full h-full z-20`}
     transition: all .2s ease;
@@ -313,7 +287,6 @@ const ImgOverlay = styled('div')`
       background-image: radial-gradient(ellipse closest-side, rgba(28, 30, 44, 0.6), rgba(28, 30, 44, 1));
     }
 `
-
 const BgImg = styled('div')`
   ${tw`pin-t pin-l w-full h-full absolute overflow-hidden object-cover flex justify-center items-center`}
   img {
@@ -480,7 +453,7 @@ export default class Form extends React.Component {
         })
       }
 
-      fetch('https://docs.google.com/forms/d/e/1FAIpQLSexIBjK3ArH9sfu1YPGNQ0nUr8noJ4Ec8P27ltxdE0efzsGiw/formResponse', {
+      fetch('https://docs.google.com/forms/d/e/1FAIpQLSdgqQhjnfvKEmxVpOVA2qJTEj_9aefys-zoQgq0Ooiur3i5Tw/formResponse', {
         method: 'POST',
         body: data,
         mode: 'no-cors'
@@ -655,7 +628,7 @@ export default class Form extends React.Component {
                         :
                           <>
                           <h2>Something went wrong!</h2>
-                          <p>Sorry! It looks like something went wrong with your submission. Could you please try again, or if the issue persists, <a href="mailto:michael@mckvr.com">get in touch</a>.</p>
+                          <p>Sorry! It looks like something went wrong with your submission. Could you please try again, or if the issue persists, <a href="mailto:james.w.lane@mac.com">get in touch</a>.</p>
                           </>
                         }
                       </FormSubmittedText>
@@ -668,7 +641,7 @@ export default class Form extends React.Component {
                       </IconWrapper>
                       <FormSubmittedText>
                       <h2>Oops, something went wrong!</h2>
-                      <p>Looks like something went wrong and your space didn't submit. Could you try again or <a href="mailto:michael@mckvr.com">email me</a>.</p>
+                      <p>Looks like something went wrong and your space didn't submit. Could you try again or <a href="mailto:james.w.lane@mac.com">email me</a>.</p>
                       </FormSubmittedText>
                     </>
                     }
@@ -859,8 +832,7 @@ export default class Form extends React.Component {
                   </Formgroup>
 
                   </FormWrapper>
-
-                  <form onSubmit={this.handleSubmit} action="https://docs.google.com/forms/d/e/1FAIpQLSexIBjK3ArH9sfu1YPGNQ0nUr8noJ4Ec8P27ltxdE0efzsGiw/formResponse" method="post">
+                  <form onSubmit={this.handleSubmit} action="https://docs.google.com/forms/d/e/1FAIpQLSdgqQhjnfvKEmxVpOVA2qJTEj_9aefys-zoQgq0Ooiur3i5Tw/formResponse" method="post">
 
                       {/* Space Name */}
                       <input id="21680865" type="hidden" name="entry.21680865" required value={this.state.space || ""} readOnly />
@@ -946,7 +918,7 @@ export default class Form extends React.Component {
                     width="100%"
                     height="100%"
                     padding-top="20%"
-                    mapStyle="mapbox://styles/mckeever02/cjsvqwp650t2x1fqt8xx6sd54"
+                    mapStyle="mapbox://styles/jameswlane/ck7uye98902jt1jmn68vbcby9"
                     onViewportChange={this._onViewportChange}
                     onTransitionEnd={this._onTransitionEnd}
                     onTransitionStart={this._onTransitionStart}
