@@ -142,7 +142,7 @@ class BlogPostTemplate extends React.Component {
     const { title, description, featuredImage, date, author, readingTime} = post.frontmatter;
     const { previous, next } = this.props.pageContext
 
-    const disqusShortname = "trying-to-work";
+    const disqusShortname = "where-to-work";
     const disqusConfig = {
       identifier: post.id,
       title: title,
