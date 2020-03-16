@@ -188,7 +188,7 @@ class BlogPostTemplate extends React.Component {
           </ArticleHeaderWrapper>
 
           <ArticleContent>
-            <MDXRenderer>{this.props.data.mdx.code.body}</MDXRenderer>
+           {/* <MDXRenderer>{this.props.data.mdx.code.body}</MDXRenderer> */}
           </ArticleContent>
 
           {/* <ul
