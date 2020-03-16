@@ -33,7 +33,7 @@ function SEO({ description, lang, meta, keywords, title, image, metaTitle }) {
             <meta property="twitter:url" content={data.site.siteMetadata.siteUrl} />
             <meta property="twitter:title" content={title || data.site.siteMetadata.title} />
             <meta property="twitter:text:title" content={title || data.site.siteMetadata.title} />
-            <meta property="twitter:site" content="@tryingtowork" />
+            <meta property="twitter:site" content="@jameswlane" />
             <meta property="twitter:description" content={metaDescription} />
             {/* <meta property="twitter:image" content={image} /> */}
           </Helmet>

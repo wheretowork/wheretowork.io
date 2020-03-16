@@ -37,7 +37,7 @@ export default class Footer extends React.Component {
             <>
             <FooterWrapper>
                 <FooterItem>
-                    <a target="_blank" rel="noopener noreferrer" href="//twitter.com/trying2work">Follow on Twitter</a>
+                    <a target="_blank" rel="noopener noreferrer" href="//twitter.com/jameswlane">Follow on Twitter</a>
                 </FooterItem>
                 <FooterItem>
                     <ScrollToTop showUnder={0}
@@ -46,7 +46,7 @@ export default class Footer extends React.Component {
                     </ScrollToTop>
                 </FooterItem>
                 <FooterItem>
-                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/mckeever02/tryingtowork">View on Github</a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/wheretowork/wheretowork.io">View on Github</a>
                 </FooterItem>
             </FooterWrapper>
             </>

@@ -49,13 +49,13 @@ export default class About extends React.Component {
 
             <h2>Have a question?</h2>
 
-          <p>Came across any bugs? Have any suggestions on how I can improve this site? Or just want to talk to me? You can send me a <a href="//twitter.com/mmckvr">DM on Twitter</a>, <a href="mailto:michael@mckvr.com">email me</a> or <a href="https://github.com/mckeever02/tryingtowork">open an issue on Github</a>.</p>
+          <p>Came across any bugs? Have any suggestions on how I can improve this site? Or just want to talk to me? You can send me a <a href="//twitter.com/jameswlane">DM on Twitter</a>, <a href="mailto:james.w.lane@mac.com">email me</a> or <a href="https://github.com/wheretowork/wheretowork.io">open an issue on Github</a>.</p>
 
             <h2>Colophon</h2>
 
             <p>This site is built with Gatsby, powered by React and hosted on Netlify. Body text is set in Fira Mono by Mozilla. Header text is set in Tiempos Headline by Klim Type.</p>
 
-            <p>Design and development by <a href="//twitter.com/mmckvr">Michael McKeever</a></p>
+            <p>Design and development by <a href="//twitter.com/mmckvr">Michael McKeever</a> & <a href="//twitter.com/jameswlane">James W. Lane</a></p>
 
         </ContentWrapper>
 

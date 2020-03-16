@@ -85,7 +85,7 @@ export default class Nav extends React.Component {
                 </li>)
             }
             <li>
-              <GitHubButton href="https://github.com/mckeever02/tryingtowork" data-icon="octicon-star" data-show-count="true" aria-label="Star mckeever02/tryingtowork on GitHub">Star</GitHubButton>
+              <GitHubButton href="https://github.com/wheretowork/wheretowork.io" data-icon="octicon-star" data-show-count="true" aria-label="Star wheretowork/wheretowork.io on GitHub">Star</GitHubButton>
             </li>
             <li>
             <Button classes="sm outline" onClick={this.props.openModal} title="Add a space" />
