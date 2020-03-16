@@ -8,9 +8,8 @@ function SEO({ description, lang, meta, keywords, title, image, metaTitle }) {
     <StaticQuery
       query={detailsQuery}
       render={data => {
-        const image = `${data.site.siteMetadata.siteUrl}${image || data.site.siteMetadata.defaultImage}`;
-        const metaDescription =
-          description || data.site.siteMetadata.description
+      // const image = `${data.site.siteMetadata.siteUrl}${image || data.site.siteMetadata.defaultImage}`;
+      const metaDescription = description || data.site.siteMetadata.description
         return (
           <Helmet
             defer={false}
@@ -22,12 +21,12 @@ function SEO({ description, lang, meta, keywords, title, image, metaTitle }) {
             titleTemplate={`%s | ${data.site.siteMetadata.title}`}
           >
             <meta property="description" content={metaDescription} />
-            <meta property="image" content={image} />
+            {/* <meta property="image" content={image} /> */}
             {/* Open Graph / Facebook */}
             <meta property="og:type" content="website" />
             <meta property="og:title" content={metaTitle || data.site.siteMetadata.title} />
             <meta property="og:description" content={metaDescription} />
-            <meta property="og:image" content={image} />
+            {/* <meta property="og:image" content={image} /> */}
             <meta property="og:url" content={data.site.siteMetadata.siteUrl} />
             {/* Twitter */}
             <meta property="twitter:card" content="summary_large_image" />
@@ -36,7 +35,7 @@ function SEO({ description, lang, meta, keywords, title, image, metaTitle }) {
             <meta property="twitter:text:title" content={title || data.site.siteMetadata.title} />
             <meta property="twitter:site" content="@tryingtowork" />
             <meta property="twitter:description" content={metaDescription} />
-            <meta property="twitter:image" content={image} />
+            {/* <meta property="twitter:image" content={image} /> */}
           </Helmet>
         )
       }}
