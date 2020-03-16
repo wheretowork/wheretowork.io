@@ -1,1 +1,16 @@
-{"alias": ["wheretowork.io","www.wheretowork.io"],"version":2,"name":"wheretowork.io","builds":[{"src":"package.json","use":"@now/static-build","config":{"distDir":"public"}}]}
+{
+  "alias": [
+    "wheretowork.io",
+    "www.wheretowork.io"
+  ],
+  "version": 2,
+  "name": "wheretowork.io",
+  "build": {
+    "env": {
+      "GATSBY_GOOGLE_CLIENT_ID": "@gatsby_google_client_id",
+      "GATSBY_GOOGLE_PRIVATE_KEY_ID": "@gatsby_google_private_key_id",
+      "GATSBY_GOOGLE_PRIVATE_KEY": "@gatsby_google_private_key",
+      "NODE_ENV": "production"
+    }
+  }
+}
