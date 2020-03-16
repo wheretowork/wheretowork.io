@@ -10,6 +10,7 @@
       "GATSBY_GOOGLE_CLIENT_ID": "@gatsby_google_client_id",
       "GATSBY_GOOGLE_PRIVATE_KEY_ID": "@gatsby_google_private_key_id",
       "GATSBY_GOOGLE_PRIVATE_KEY": "@gatsby_google_private_key",
+      "GATSBY_MAPBOX_API_KEY": "@gatsby_mapbox_api_key",
       "NODE_ENV": "production"
     }
   }
