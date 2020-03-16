@@ -183,9 +183,6 @@ module.exports = {
               ) {
                 edges {
                   node {
-                    code {
-                      body
-                    }
                     fields { slug }
                     frontmatter {
                       title
