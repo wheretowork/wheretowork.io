@@ -50,7 +50,7 @@
     "gatsby-remark-images": "^3.1.49",
     "gatsby-remark-reading-time": "^1.0.1",
     "gatsby-remark-responsive-iframe": "^2.3.0",
-    "gatsby-remark-smartypants": "^2.0.5",
+    "gatsby-remark-smartypants": "^2.2.0",
     "gatsby-remark-unwrap-images": "^1.0.1",
     "gatsby-source-filesystem": "^2.2.1",
     "gatsby-source-google-sheets": "^1.1.1",
