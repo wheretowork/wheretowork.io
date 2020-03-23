@@ -52,7 +52,7 @@
     "gatsby-remark-responsive-iframe": "^2.3.0",
     "gatsby-remark-smartypants": "^2.0.5",
     "gatsby-remark-unwrap-images": "^1.0.1",
-    "gatsby-source-filesystem": "^2.0.2",
+    "gatsby-source-filesystem": "^2.2.1",
     "gatsby-source-google-sheets": "^1.1.1",
     "gatsby-transformer-remark": "^2.1.6",
     "gatsby-transformer-sharp": "^2.1.3",
