@@ -67,7 +67,7 @@
     "react": "^16.13.1",
     "react-avatar": "^3.6.0",
     "react-copy-to-clipboard": "^5.0.1",
-    "react-dom": "^16.5.1",
+    "react-dom": "^16.13.1",
     "react-geosuggest": "^2.11.0",
     "react-github-btn": "^1.0.5",
     "react-helmet": "^5.2.0",
