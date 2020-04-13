@@ -55,7 +55,7 @@
     "gatsby-source-filesystem": "^2.2.2",
     "gatsby-source-google-sheets": "^1.1.1",
     "gatsby-transformer-remark": "^2.7.1",
-    "gatsby-transformer-sharp": "^2.4.3",
+    "gatsby-transformer-sharp": "^2.4.4",
     "intersection-observer": "^0.7.0",
     "mdx-utils": "^0.2.0",
     "netlify-lambda": "^1.4.3",
