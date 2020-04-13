@@ -25,7 +25,7 @@
     "@mdx-js/tag": "^0.20.3",
     "babel-plugin-tailwind-components": "^0.5.10",
     "classnames": "^2.2.6",
-    "core-js": "^3.6.4",
+    "core-js": "^3.6.5",
     "create-react-class": "^15.6.3",
     "disqus-react": "^1.0.5",
     "dotenv": "^8.2.0",
