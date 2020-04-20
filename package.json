@@ -27,7 +27,7 @@
     "classnames": "^2.2.6",
     "core-js": "^3.6.5",
     "create-react-class": "^15.6.3",
-    "disqus-react": "^1.0.5",
+    "disqus-react": "^1.0.8",
     "dotenv": "^8.2.0",
     "emotion": "^10.0.27",
     "emotion-server": "^10.0.27",
