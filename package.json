@@ -69,7 +69,7 @@
     "react-copy-to-clipboard": "^5.0.1",
     "react-dom": "^16.13.1",
     "react-geosuggest": "^2.13.0",
-    "react-github-btn": "^1.0.5",
+    "react-github-btn": "^1.2.0",
     "react-helmet": "^5.2.0",
     "react-live": "^2.2.2",
     "react-map-gl": "^5.2.5",
