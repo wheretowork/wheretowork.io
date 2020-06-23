@@ -54,7 +54,7 @@
     "gatsby-remark-unwrap-images": "^1.0.2",
     "gatsby-source-filesystem": "^2.3.11",
     "gatsby-source-google-sheets": "^1.1.1",
-    "gatsby-transformer-remark": "^2.8.13",
+    "gatsby-transformer-remark": "^2.8.18",
     "gatsby-transformer-sharp": "^2.5.3",
     "intersection-observer": "^0.7.0",
     "mdx-utils": "^0.2.0",
