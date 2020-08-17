@@ -18,7 +18,7 @@
     "url": "https://github.com/wheretowork/wheretowork.io/issues"
   },
   "dependencies": {
-    "@emotion/core": "^10.0.7",
+    "@emotion/core": "^10.0.34",
     "@emotion/styled": "^10.0.7",
     "@mdx-js/mdx": "^1.6.13",
     "@mdx-js/react": "^1.6.16",
