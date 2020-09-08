@@ -59,7 +59,7 @@
     "intersection-observer": "^0.7.0",
     "mdx-utils": "^0.2.0",
     "netlify-lambda": "^1.4.3",
-    "node-fetch": "^2.3.0",
+    "node-fetch": "^2.6.1",
     "node-sass": "^4.14.1",
     "postcss-cli": "^7.1.2",
     "prism-react-renderer": "^1.1.1",
