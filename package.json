@@ -70,7 +70,7 @@
     "react-dom": "^16.13.1",
     "react-geosuggest": "^2.14.0",
     "react-github-btn": "^1.2.0",
-    "react-helmet": "^5.2.0",
+    "react-helmet": "^6.1.0",
     "react-live": "^2.2.2",
     "react-map-gl": "^5.2.8",
     "react-modal": "^3.8.1",
