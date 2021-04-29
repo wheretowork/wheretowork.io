@@ -1,0 +1,23 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: weekly
+    time: "11:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: sharp
+    versions:
+    - 0.26.3
+    - 0.27.1
+    - 0.27.2
+  - dependency-name: gatsby-plugin-sharp
+    versions:
+    - 2.13.1
+    - 2.13.4
+    - 2.14.1
+  - dependency-name: netlify-lambda
+    versions:
+    - 2.0.2
+    - 2.0.3
